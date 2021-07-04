@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="img/cart.png" width="30px" height="30px"></a>
+            <img src="img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contact us.
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                                    placeholder="Enter name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                    placeholder="Enter email" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="6" required></textarea>
+                            </div>
+                            <div class="mx-auto">
+                                <button type="submit" class="btn btn-primary text-right"
+                                    style="max-width: 80px;">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4" style="margin-bottom: 270px;">
+                <div class="card bg-light mb-3">
+                    <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i> Address
+                    </div>
+                    <div class="card-body">
+                        <p>267 Boulevard Mohamed Zerktouni</p>
+                        <p>Casablanca 20100</p>
+                        <p>Maroc</p>
+                        <p>Email : OnlineGaming@gmail.com</p>
+                        <p>Tel. +212 681756491</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------- footer --------->
+    <div class="footer" style="margin-top: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/images/play-store.png">
+                        <img src="img/images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo.png" height="89" width="300">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure And
+                        Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><i class="fa fa-facebook-official"></i> Facebook</li>
+                        <li><i class="fa fa-twitter-square"></i> Twitter</li>
+                        <li><i class="fa fa-instagram"></i> Instagram</li>
+                        <li><i class="fa fa-youtube-play"></i> Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Oualid Benali</p>
+        </div>
+    </div>
+
+    <!----------Basic Js for menu --------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>All Products</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.png" width="125px"></a>
+            </div>
+         <nav>
+              <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                   <li><a href="account.html">Account</a></li>
+                </ul>
+         </nav>
+         <a href="cart.html"><img src="img/cart.png" width="30px" height="30px"></a>
+         <img src="img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Sorting</option>
+            <option>Sort by price</option>
+            <option>Sort by popularity</option>
+            <option>Sort by rating</option>
+            <option>Sort by sale</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="products-detail-1.html"><img src="img/product1.png" width="200px" height="120px" ></a>
+            <h4>HyperX Alloy Origins</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>1,649 MAD</p>
+        </div>
+        <div class="col-4">
+            <a href="products-detail-2.html"><img src="img/product2.png" width="200px" height="120px" ></a>
+            <h4>Razer Cynosa Chroma</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>929 MAD</p>
+        </div>
+        <div class="col-4">
+            <a href="products-detail-3.html"><img src="img/product3.jpg" width="200px" height="120px" ></a>
+            <h4>Cooler Master CK530</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>1,290 MAD</p>
+        </div>
+        <div class="col-4">
+            <a href="products-detail-4.html"><img src="img/product4.jpg" width="200px" height="120px" ></a>
+            <h4>Cooler Master Devastator 3</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>1,390 MAD</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="img/product5.png" width="200px" height="120px" >
+            <h4>Logitech G Pro Wireless</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>1,790 MAD</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product7.png" width="200px" height="120px" >
+            <h4>Logitech G Pro</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>990 MAD</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product6.png" width="200px" height="120px" >
+            <h4>Ozone Neon M50 White</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>390 MAD</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product8.jpg" width="200px" height="120px" >
+            <h4>Razer Death Adder</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>690 MAD</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="img/product9.jpg" width="200px" height="120px" >
+            <h4>Razer Kraken Vert</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>929 MAD</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product10.jpg" width="200px" height="120px" >
+            <h4>Cooler Master MH752</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>1,090 MAD</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product11.jpg" width="200px" height="120px" >
+            <h4>Razer Kraken for Console</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>929 MAD</p>
+        </div>
+        <div class="col-4">
+            <img src="img/product12.jpg" width="200px" height="120px" >
+            <h4>HyperX Cloud II</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>1,390 MAD</p>
+        </div>
+    </div>
+
+    <div class="page-btn">
+        <span style="color: #fff; background: rgb(110, 110, 110);">1</span>
+        <a href="products2.html"><span>2</span></a>
+        <a href="products3.html"><span>3</span></a>
+        <a href="products4.html"><span>4</span></a>
+        <a href="productslast.html"><span>&#8594;</span></a>
+    </div>
+</div>
+    <!----------- footer --------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/images/play-store.png">
+                        <img src="img/images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo.png" height="89" width="300">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure And
+                        Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><i class="fa fa-facebook-official"></i> Facebook</li>
+                        <li><i class="fa fa-twitter-square"></i> Twitter</li>
+                        <li><i class="fa fa-instagram"></i> Instagram</li>
+                        <li><i class="fa fa-youtube-play"></i> Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Oualid Benali</p>
+        </div>
+    </div>
+<!----------Basic Js for menu --------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+   
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
